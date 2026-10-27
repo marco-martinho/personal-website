@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Basics Exercise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <img
+      class="rococo-panel"
+      src="rococo-panel-war-and-sea.png"
+      width="1264"
+      height="843"
+      alt=""
+      aria-hidden="true"
+    />
+
     <header>
       <nav aria-label="Main navigation">
         <h3>MAART</h3>
-        <ul>
-          <li><a href="#design">About Me</a></li>
-          <li><a href="#music">Skillset</a></li>
-          <li><a href="#writing">Skillset</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="list">
+          <li><a href="#design">Design</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#information">Information</a></li>
         </ul>
       </nav>
     </header>
@@ -22,39 +38,38 @@
         <h2>Design</h2>
 
         <p>
-          Hi there! Welcome to my personal website. This is wher my design work
-          will be exposed.
+          Works of art, design, architecture, photography, fashion.. and all
+          that boasts an amazing visual shape, that talks more than words.
         </p>
-
-        <figure>
-          <img src="myphoto.jpg" alt="it world" />
-
-          <figcaption>the porwer of code</figcaption>
-        </figure>
       </section>
 
-      <section id="contact">
-        <h2>Contact</h2>
+      <section id="music">
+        <h2>Music</h2>
 
-        <!-- When clicking on these element, nothing happens! But I want to be redirected to the other websites. Why is it not working? -->
-        <ul>
-          <li><a href="https://github.com">GitHub</a></li>
-          <li><a href="https://de.linkedin.com/">LinkedIn</a></li>
-          <li><a href="https://codesandbox.io/">CodeSandbox</a></li>
-        </ul>
+        <p>
+          The talent from musical instruments and voices, but also true sounds
+          and created sounds. Sound is a bless, but music is philharmonic.
+        </p>
       </section>
 
-      <section id="skills">
-        <h2>Skillset</h2>
+      <section id="writing">
+        <h2>Writing</h2>
 
-        <!-- This part could use some bulletpoint to be more structured. -->
+        <p>
+          Words, words and words. They write the history of us all. Languages
+          spread, communication becomes history. Symbols become politics, and
+          fantasy expands…
+        </p>
+      </section>
+
+      <section id="information">
+        <h2>Information</h2>
+
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Painting rainbows</li>
-          <li>Party</li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="find-us.html">Find us</a></li>
+          <li><a href="share.html">Share with us</a></li>
+          <li><a href="news.html">News of us</a></li>
         </ul>
       </section>
     </main>
